@@ -14,7 +14,4 @@
 
 from dorsal_html_reports.api import generate_html_directory_report, generate_html_file_report
 
-__all__ = [
-    "generate_html_directory_report",
-    "generate_html_file_report"
-]
+__all__ = ["generate_html_directory_report", "generate_html_file_report"]
