@@ -11,3 +11,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+from dorsal_html_reports.api import generate_html_directory_report, generate_html_file_report
+
+__all__ = [
+    "generate_html_directory_report",
+    "generate_html_file_report"
+]
