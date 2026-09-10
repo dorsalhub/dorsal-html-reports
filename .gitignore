@@ -1,0 +1,50 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging & distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Linters & static analysis
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs, editors & OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*Zone.Identifier
+
+# Local scratch / logs
+*.log
+local/
+.local/
+junk/
+.junk/
