@@ -60,10 +60,11 @@ from dorsal_html_reports.api import generate_html_file_report
 with open("bill_report.json") as f:
     file_record = json.load(f)
 
-html_content = generate_html_file_report(file_record)
+# Save directly to disk
+generate_html_file_report(file_record, output_path="report.html")
 
-with open("report.html", "w", encoding="utf-8") as out:
-    out.write(html_content)
+# Or return the HTML string directly
+html_content = generate_html_file_report(file_record)
 
 ```
 
@@ -73,19 +74,20 @@ Generate a report summarizing multiple scanned files or directory payloads:
 
 ```python
 import json
-from dorsal_html_reports.api import generate_html_collection_report
+from dorsal_html_reports.api import generate_html_directory_report
 
 with open("scan-dir-testmix_report.json") as f:
     collection_data = json.load(f)
 
-html_content = generate_html_collection_report(collection_data)
+# Save directly to disk
+generate_html_directory_report(collection_data, output_path="collection_report.html")
 
-with open("collection_report.html", "w", encoding="utf-8") as out:
-    out.write(html_content)
+# Or return the HTML string directly
+html_content = generate_html_directory_report(collection_data)
 
 ```
 
 ## License
 
-This project is licensed under the [Apache-2.0 License](https://www.google.com/search?q=LICENSE).
+This project is licensed under the [Apache-2.0 License](LICENSE).
 

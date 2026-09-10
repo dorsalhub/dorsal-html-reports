@@ -1,11 +1,22 @@
+# Copyright 2026 Dorsal Hub LTD
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import datetime
 import pathlib
 import pytest
 
 from dorsal_html_reports import generator
-
-
-# --- Standalone Utilities ---
 
 
 def test_human_filesize_basic_and_types():
@@ -49,9 +60,6 @@ def test_parse_date_handling():
     assert parsed == datetime.datetime(2026, 1, 1, 0, 0, tzinfo=datetime.timezone.utc)
 
 
-# --- Template Resolution ---
-
-
 def test_resolve_template_path(tmp_path: pathlib.Path):
     custom_tpl = tmp_path / "custom.html"
     custom_tpl.write_text("<div>Test</div>", encoding="utf-8")
@@ -65,9 +73,6 @@ def test_resolve_template_path(tmp_path: pathlib.Path):
 
     with pytest.raises(FileNotFoundError, match="could not be found"):
         generator.resolve_template_path("file", "non_existent_template_xyz")
-
-
-# --- Summary Stats Panel ---
 
 
 def test_get_summary_stats_data_empty():
@@ -106,12 +111,8 @@ def test_get_summary_stats_data_populated():
     }
 
 
-# --- Duplicates Report Panel ---
-
-
 def test_get_duplicates_data():
     files = [
-        # Set 1 duplicates (3 files via 'hash')
         {
             "hash": "hash_aaa",
             "annotations": {"file/base": {"record": {"size": 1024, "name": "doc1.txt"}}},
@@ -125,12 +126,6 @@ def test_get_duplicates_data():
         {
             "hash": "hash_aaa",
             "annotations": {"file/base": {"record": {"size": 1024, "name": "doc3.txt"}}},
-            "local_attributes": {},  # Falls back to base name in paths list
-        },
-        # Set 2 duplicates (2 files via 'validation_hash')
-        {
-            "validation_hash": "val_hash_bbb",
-            "annotations": {"file/base": {"record": {"size": 500}}},
             "local_attributes": {},
         },
         {
@@ -138,12 +133,15 @@ def test_get_duplicates_data():
             "annotations": {"file/base": {"record": {"size": 500}}},
             "local_attributes": {},
         },
-        # Unique file using 'quick_hash'
+        {
+            "validation_hash": "val_hash_bbb",
+            "annotations": {"file/base": {"record": {"size": 500}}},
+            "local_attributes": {},
+        },
         {
             "quick_hash": "quick_unique",
             "annotations": {"file/base": {"record": {"size": 2048}}},
         },
-        # File missing any hash
         {
             "annotations": {"file/base": {"record": {"size": 100}}},
         },
@@ -156,9 +154,6 @@ def test_get_duplicates_data():
     assert res["duplicate_sets"][0]["count"] == 3
     assert res["duplicate_sets"][0]["hash"] == "hash_aaa"[:12]
     assert res["duplicate_sets"][1]["count"] == 2
-
-
-# --- Collection Overview Panel ---
 
 
 def test_get_collection_overview_data_empty():
@@ -207,9 +202,6 @@ def test_get_collection_overview_data_missing_dates_and_metadata():
     assert res["most_recent_file_record"] is None
 
 
-# --- Dynamic Size Histogram Panel ---
-
-
 def test_get_dynamic_size_histogram_data_empty_or_zero_sizes():
     assert generator.get_dynamic_size_histogram_data([]) == []
     assert generator.get_dynamic_size_histogram_data([{"annotations": {"file/base": {"record": {"size": 0}}}}]) == []
@@ -253,9 +245,6 @@ def test_get_dynamic_size_histogram_data_zero_iqr_fallback():
     assert len(res) >= 1
     total_count = sum(bin_entry["count"] for bin_entry in res)
     assert total_count == 22
-
-
-# --- File Explorer & Dispatch Registry ---
 
 
 def test_get_file_explorer_data():

@@ -117,7 +117,6 @@ def generate_html_directory_report(
         if isinstance(files_array, dict) and "results" in files_array:
             files_array = files_array["results"]
 
-        # Parse string dates into datetime objects so Jinja can call .strftime()
         for f in files_array:
             for attr_key in ("local_attributes", "local_filesystem"):
                 attrs = f.get(attr_key)
