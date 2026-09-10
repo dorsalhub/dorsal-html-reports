@@ -3,6 +3,9 @@
 </p>
 
 <p align="center">
+  <a href="https://codecov.io/gh/dorsalhub/dorsal-html-reports">
+    <img src="https://codecov.io/gh/dorsalhub/dorsal-html-reports/graph/badge.svg" alt="codecov">
+  </a>
   <a href="https://pypi.org/project/dorsal-html-reports/">
     <img src="https://img.shields.io/pypi/v/dorsal-html-reports?color=0ea5e9" alt="PyPI version">
   </a>
