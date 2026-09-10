@@ -32,24 +32,6 @@
 
 ---
 
-## Installation
-
-Install via `pip`:
-
-```bash
-pip install dorsal-html-reports
-
-```
-
-Or add it using `uv`:
-
-```bash
-uv add dorsal-html-reports
-
-```
-
----
-
 ## Quickstart
 
 ### 1. Generate Single-File Reports
