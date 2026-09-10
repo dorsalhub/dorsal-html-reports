@@ -1,0 +1,475 @@
+{
+  "scan_metadata": {
+    "type": "local",
+    "path": "/mnt/c/testmix",
+    "recursive": false,
+    "scan_started_at": "2026-09-09T19:54:12.130802+00:00",
+    "total_files_in_collection": 7,
+    "dorsal_version": "0.9.2",
+    "overall": {
+      "total_files": 7,
+      "total_size": 78037186,
+      "avg_size": 11148169.42857143,
+      "largest_file": {
+        "size": 55710644,
+        "path": "Game Files.7z"
+      },
+      "smallest_file": {
+        "size": 21573,
+        "path": "wordy.docx"
+      },
+      "newest_file": {
+        "date": "2025-09-02 11:58:19.948682+01:00",
+        "path": "bill.pdf"
+      },
+      "oldest_file": {
+        "date": "2011-02-14 05:38:02.218750+00:00",
+        "path": "Things fall apart.epub"
+      }
+    },
+    "by_type": [
+      {
+        "media_type": "application/x-7z-compressed",
+        "count": 1,
+        "total_size": 55710644,
+        "percentage_of_total": 71.38986790220756
+      },
+      {
+        "media_type": "application/x-msi",
+        "count": 1,
+        "total_size": 21966848,
+        "percentage_of_total": 28.149205687657673
+      },
+      {
+        "media_type": "application/epub+zip",
+        "count": 1,
+        "total_size": 174908,
+        "percentage_of_total": 0.22413417111170564
+      },
+      {
+        "media_type": "application/pdf",
+        "count": 2,
+        "total_size": 122621,
+        "percentage_of_total": 0.15713149882160027
+      },
+      {
+        "media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "count": 1,
+        "total_size": 40592,
+        "percentage_of_total": 0.05201622723812722
+      },
+      {
+        "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "count": 1,
+        "total_size": 21573,
+        "percentage_of_total": 0.027644512963345448
+      }
+    ],
+    "by_source": [
+      {
+        "source": "cache",
+        "count": 7,
+        "total_size": 78037186,
+        "percentage_of_total": 100.0
+      }
+    ]
+  },
+  "results": [
+    {
+      "hash": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+      "validation_hash": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787",
+      "annotations": {
+        "file/base": {
+          "record": {
+            "hash": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+            "name": "bill.pdf",
+            "extension": ".pdf",
+            "size": 81875,
+            "media_type": "application/pdf",
+            "all_hashes": [
+              {
+                "id": "SHA-256",
+                "value": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5"
+              },
+              {
+                "id": "BLAKE3",
+                "value": "3d18404a2542141b1031c729c69ac33b55295a01a305d5c8522fd86ded09a091"
+              },
+              {
+                "id": "MD5",
+                "value": "a108525e89b9ed6d07a9d1dccfbce02a"
+              },
+              {
+                "id": "SHA-1",
+                "value": "aeb7172f8f87ae2a342ae2becf8f424349805ebc"
+              },
+              {
+                "id": "DORSAL",
+                "value": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787"
+              }
+            ],
+            "all_hash_ids": {
+              "SHA-256": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+              "BLAKE3": "3d18404a2542141b1031c729c69ac33b55295a01a305d5c8522fd86ded09a091",
+              "MD5": "a108525e89b9ed6d07a9d1dccfbce02a",
+              "SHA-1": "aeb7172f8f87ae2a342ae2becf8f424349805ebc",
+              "DORSAL": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787"
+            },
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "55c9fbc3-8fad-4db8-bb86-fdb79b99b3c9"
+          },
+          "schema_id": "file/base"
+        },
+        "file/pdf": {
+          "record": {
+            "title": "certificate-template-hoxton-mix-uk",
+            "creator": "Pages",
+            "producer": "macOS Version 15.6 (Build 24G84) Quartz PDFContext",
+            "keywords": [],
+            "version": "1.4",
+            "page_count": 1,
+            "creation_date": "2025-08-21T09:49:07Z",
+            "modified_date": "2025-08-21T09:49:07Z"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/pdf",
+            "version": "1.1.0",
+            "variant": "pypdfium2",
+            "execution_id": "fe84701d-c647-4afe-b3d8-3c9a5b8b3d88"
+          },
+          "schema_id": "file/pdf"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2025-09-02 11:58:19.948682+01:00",
+        "date_created": "2025-10-30 10:31:19.486070+00:00",
+        "file_path": "/mnt/c/testmix/bill.pdf"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "desktop-latest.msi",
+            "extension": ".msi",
+            "size": 21966848,
+            "media_type": "application/x-msi",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "7e53f5b8-1bf3-42c5-9e11-fe56739d1d84"
+          },
+          "schema_id": "file/base"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2025-07-04 17:58:14.106064+01:00",
+        "date_created": "2025-10-31 21:24:20.177600+00:00",
+        "file_path": "/mnt/c/testmix/desktop-latest.msi"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "DorsalHub.pptx",
+            "extension": ".pptx",
+            "size": 40592,
+            "media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "ac70099e-aade-4f6a-b2b4-a17489fab4d7"
+          },
+          "schema_id": "file/base"
+        },
+        "file/office": {
+          "record": {
+            "author": "Rio Achuzia",
+            "last_modified_by": "Rio Achuzia",
+            "keywords": [],
+            "revision": 1,
+            "creation_date": "2024-06-06T09:57:39Z",
+            "modified_date": "2024-06-06T09:57:47Z",
+            "application_name": "Microsoft Office PowerPoint",
+            "application_version": "16.0000",
+            "structural_parts": [
+              "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.presProps+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.slide+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml",
+              "application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml",
+              "application/vnd.openxmlformats-officedocument.theme+xml",
+              "application/vnd.openxmlformats-package.core-properties+xml",
+              "application/vnd.openxmlformats-package.relationships+xml",
+              "application/xml",
+              "image/jpeg"
+            ],
+            "has_comments": false,
+            "custom_properties": {},
+            "all_fonts": [],
+            "is_password_protected": false,
+            "powerpoint": {
+              "slide_count": 1,
+              "slide_master_names": []
+            }
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/office",
+            "version": "1.0.0",
+            "variant": "pptx_stdlib_xml",
+            "execution_id": "302864ec-1585-4a93-82ad-146f81a5daec"
+          },
+          "schema_id": "file/office"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2024-06-06 10:57:47.196276+01:00",
+        "date_created": "2025-10-30 10:32:10.150751+00:00",
+        "file_path": "/mnt/c/testmix/DorsalHub.pptx"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "Game Files.7z",
+            "extension": ".7z",
+            "size": 55710644,
+            "media_type": "application/x-7z-compressed",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "7accde94-6957-4e8d-8e0c-391af61eacb5"
+          },
+          "schema_id": "file/base"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2024-09-28 22:15:17.205278+01:00",
+        "date_created": "2025-10-30 10:31:56.775228+00:00",
+        "file_path": "/mnt/c/testmix/Game Files.7z"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "Late Correspondence.pdf",
+            "extension": ".pdf",
+            "size": 40746,
+            "media_type": "application/pdf",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "7c2f94b6-b6cf-4725-a8b5-85cbc9a26c4f"
+          },
+          "schema_id": "file/base"
+        },
+        "file/pdf": {
+          "record": {
+            "creator": "wkhtmltopdf 0.12.6",
+            "producer": "Qt 4.8.7",
+            "keywords": [],
+            "version": "1.4",
+            "page_count": 2,
+            "creation_date": "2025-04-09T12:01:20+01:00"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/pdf",
+            "version": "1.1.0",
+            "variant": "pypdfium2",
+            "execution_id": "1488efad-67c2-4051-938a-21af65085f4d"
+          },
+          "schema_id": "file/pdf"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2025-04-09 12:06:10.229029+01:00",
+        "date_created": "2025-07-18 10:32:19.608389+01:00",
+        "file_path": "/mnt/c/testmix/Late Correspondence.pdf"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "Things fall apart.epub",
+            "extension": ".epub",
+            "size": 174908,
+            "media_type": "application/epub+zip",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "2696be9c-96b3-4a2f-9705-2630f269095c"
+          },
+          "schema_id": "file/base"
+        },
+        "file/ebook": {
+          "record": {
+            "title": "Things fall apart",
+            "authors": [
+              "Chinua Achebe"
+            ],
+            "contributors": [],
+            "publisher": "Penguin",
+            "subjects": [
+              "Fiction"
+            ],
+            "description": "SUMMARY:\nTHINGS FALL APART tells two overlapping, intertwining stories, both of which center around Okonkwo, a \"strong man\" of an Ibo village in Nigeria. The first of these stories traces Okonkwo's fall from grace with the tribal world in which he lives, and in its classical purity of line and economical beauty it provides us with a powerful fable about the immemorial conflict between the individual and society. The second story, which is as modern as the first is ancient, and which elevates the book to a tragic plane, concerns the clash of cultures and the destruction of Okonkwo's world through the arrival of aggressive, proselytizing European missionaries. These twin dramas are perfectly harmonized, and they are modulated by an awareness capable of encompassing at once the life of nature, human history, and the mysterious compulsions of the soul. THINGS FALL APART is the most illuminating and permanent monument we have to the modern African experience as seen from within.",
+            "language": "English",
+            "language_code": "eng",
+            "locale_code": "en",
+            "isbn": "9780141186887",
+            "other_identifiers": [
+              "1937a3ba-99b1-47bf-8225-efeafca7136f"
+            ],
+            "tools": [
+              "calibre (0.7.12) [http://calibre-ebook.com]"
+            ],
+            "cover_path": "cover.jpeg",
+            "publication_date": "2001-08-15T00:00:00+01:00"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/ebook",
+            "version": "1.0.0",
+            "variant": "epub_stdlib",
+            "execution_id": "827ccf2f-e996-4a57-9923-e88f19ca6246"
+          },
+          "schema_id": "file/ebook"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2011-02-14 05:38:02.218750+00:00",
+        "date_created": "2025-10-31 21:24:30.420050+00:00",
+        "file_path": "/mnt/c/testmix/Things fall apart.epub"
+      }
+    },
+    {
+      "annotations": {
+        "file/base": {
+          "record": {
+            "name": "wordy.docx",
+            "extension": ".docx",
+            "size": 21573,
+            "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "media_type_prefix": "application"
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/base",
+            "version": "1.0.0",
+            "execution_id": "c3c6043b-8738-4773-9d37-be24c91ad4e6"
+          },
+          "schema_id": "file/base"
+        },
+        "file/office": {
+          "record": {
+            "author": "Cinnomen",
+            "last_modified_by": "Cinnomen",
+            "keywords": [],
+            "revision": 3,
+            "creation_date": "2016-04-26T14:58:00Z",
+            "modified_date": "2016-04-26T15:11:00Z",
+            "application_name": "Microsoft Office Word",
+            "application_version": "12.0000",
+            "template": "Normal.dotm",
+            "structural_parts": [
+              "application/vnd.openxmlformats-officedocument.extended-properties+xml",
+              "application/vnd.openxmlformats-officedocument.theme+xml",
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
+              "application/vnd.openxmlformats-package.core-properties+xml",
+              "application/vnd.openxmlformats-package.relationships+xml",
+              "application/xml"
+            ],
+            "has_comments": false,
+            "custom_properties": {},
+            "language": "English",
+            "language_code": "eng",
+            "locale_code": "en-GB",
+            "all_fonts": [
+              "Calibri",
+              "Cambria",
+              "Times New Roman"
+            ],
+            "is_password_protected": false,
+            "word": {
+              "page_count": 5,
+              "word_count": 1701,
+              "char_count": 9696,
+              "paragraph_count": 22,
+              "hyperlinks": [],
+              "embedded_images": [],
+              "has_track_changes": false
+            }
+          },
+          "source": {
+            "type": "Model",
+            "id": "dorsal/office",
+            "version": "1.0.0",
+            "variant": "docx_stdlib_xml",
+            "execution_id": "4c0aa436-58b5-4d08-bf3f-a09495b31dd8"
+          },
+          "schema_id": "file/office"
+        }
+      },
+      "source": "cache",
+      "tags": [],
+      "urls": [],
+      "local_attributes": {
+        "date_modified": "2016-04-27 04:58:47.800910+01:00",
+        "date_created": "2025-11-07 12:24:34.707618+00:00",
+        "file_path": "/mnt/c/testmix/wordy.docx"
+      }
+    }
+  ]
+}

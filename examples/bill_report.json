@@ -1,0 +1,101 @@
+{
+  "hash": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+  "validation_hash": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787",
+  "annotations": {
+    "file/base": {
+      "record": {
+        "hash": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+        "name": "bill.pdf",
+        "extension": ".pdf",
+        "size": 81875,
+        "media_type": "application/pdf",
+        "all_hashes": [
+          {
+            "id": "SHA-256",
+            "value": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5"
+          },
+          {
+            "id": "BLAKE3",
+            "value": "3d18404a2542141b1031c729c69ac33b55295a01a305d5c8522fd86ded09a091"
+          },
+          {
+            "id": "MD5",
+            "value": "a108525e89b9ed6d07a9d1dccfbce02a"
+          },
+          {
+            "id": "SHA-1",
+            "value": "aeb7172f8f87ae2a342ae2becf8f424349805ebc"
+          },
+          {
+            "id": "DORSAL",
+            "value": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787"
+          }
+        ],
+        "all_hash_ids": {
+          "SHA-256": "46b065c86856297dec7ec0004127a5cdebeeff668f99ea7a8169609cbc4a0da5",
+          "BLAKE3": "3d18404a2542141b1031c729c69ac33b55295a01a305d5c8522fd86ded09a091",
+          "MD5": "a108525e89b9ed6d07a9d1dccfbce02a",
+          "SHA-1": "aeb7172f8f87ae2a342ae2becf8f424349805ebc",
+          "DORSAL": "e79bdd18af0471f2d5fb52cb2f25a47e9629a3dbdcecb9733879c1e9d768b787"
+        },
+        "media_type_prefix": "application"
+      },
+      "source": {
+        "type": "Model",
+        "id": "dorsal/base",
+        "version": "1.0.0",
+        "execution_id": "55c9fbc3-8fad-4db8-bb86-fdb79b99b3c9"
+      },
+      "schema_id": "file/base"
+    },
+    "file/pdf": {
+      "record": {
+        "title": "certificate-template-hoxton-mix-uk",
+        "creator": "Pages",
+        "producer": "macOS Version 15.6 (Build 24G84) Quartz PDFContext",
+        "keywords": [],
+        "version": "1.4",
+        "page_count": 1,
+        "creation_date": "2025-08-21T09:49:07Z",
+        "modified_date": "2025-08-21T09:49:07Z"
+      },
+      "source": {
+        "type": "Model",
+        "id": "dorsal/pdf",
+        "version": "1.1.0",
+        "variant": "pypdfium2",
+        "execution_id": "fe84701d-c647-4afe-b3d8-3c9a5b8b3d88"
+      },
+      "schema_id": "file/pdf"
+    }
+  },
+  "source": "cache",
+  "tags": [],
+  "urls": [],
+  "local_attributes": {
+    "is_symlink": false,
+    "date_modified": "2025-09-02T11:58:19.948682+01:00",
+    "date_accessed": "2026-09-09T14:43:23.973269+01:00",
+    "date_created": "2025-10-30T10:31:19.486070+00:00",
+    "file_path": "/mnt/c/testmix/bill.pdf",
+    "file_size_bytes": 81875,
+    "file_permissions_mode": 33279,
+    "inode": 86694292827128142,
+    "number_of_links": 1,
+    "record_id": "bb6c5d0d7011c114",
+    "full_path": "/mnt/c/testmix/bill.pdf"
+  },
+  "local_filesystem": {
+    "is_symlink": false,
+    "date_modified": "2025-09-02T11:58:19.948682+01:00",
+    "date_accessed": "2026-09-09T14:43:23.973269+01:00",
+    "date_created": "2025-10-30T10:31:19.486070+00:00",
+    "file_path": "/mnt/c/testmix/bill.pdf",
+    "file_size_bytes": 81875,
+    "file_permissions_mode": 33279,
+    "inode": 86694292827128142,
+    "number_of_links": 1,
+    "record_id": "bb6c5d0d7011c114",
+    "full_path": "/mnt/c/testmix/bill.pdf"
+  }
+}
